@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.meal-details {
+    width: 38rem !important;
+}
+
+.meal-details img {
+    width: 608px;
+    height: 345px;
+    object-fit: cover;
+}
+
+#nothing-found {
+    font-size: 22px;
+    font-weight: 700;
+    color: #dc3545;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+#ingredients p {
+    font-weight: normal;
+    list-style: none;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    color: #6C6C6C;
+}
+
+#ingredients p::after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: url(images/checkmark.png) no-repeat center center / contain;
+}
